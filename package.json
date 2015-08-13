@@ -1,0 +1,46 @@
+{
+  "name": "@shinnn/eslint-config-node-legacy",
+  "version": "1.0.0",
+  "description": "shinnn's ESLint config for maintaining modules that still support Node v0.x",
+  "repository": "shinnn/eslint-config-node-legacy",
+  "scripts": {
+    "pretest": "npm uninstall @shinnn/eslint-config-node-legacy && npm install .",
+    "test": "node  --strong_mode --harmony_destructuring test.js"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "rc",
+    "setting",
+    "config",
+    "configuration",
+    "json",
+    "validate",
+    "lint",
+    "linter",
+    "eslint",
+    "env",
+    "rule",
+    "syntax",
+    "style",
+    "node",
+    "legacy",
+    "old",
+    "older",
+    "ancient",
+    "personal"
+  ],
+  "dependencies": {
+    "@shinnn/eslint-config": "^1.1.0"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "file:.",
+    "eslint": "^1.6.0",
+    "logalot": "^2.1.0"
+  }
+}
