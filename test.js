@@ -8,7 +8,7 @@ const log = require('logalot');
 spawn('node', [
   'node_modules/eslint/bin/eslint.js',
   '--config',
-  require('./package.json').name,
+  require.resolve('.'),
   '.'
 ], {stdio: 'inherit'}).on('exit', code => {
   if (code !== 0) {
