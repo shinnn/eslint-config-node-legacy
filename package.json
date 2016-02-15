@@ -4,7 +4,7 @@
   "description": "shinnn's ESLint config for maintaining modules that still support Node v0.x",
   "repository": "shinnn/eslint-config-node-legacy",
   "scripts": {
-    "test": "node  --strong_mode --harmony_destructuring test.js"
+    "test": "node --strong_mode --harmony_destructuring test.js"
   },
   "license": "MIT",
   "publishConfig": {
@@ -35,11 +35,11 @@
     "personal"
   ],
   "dependencies": {
-    "@shinnn/eslint-config": "^1.4.0",
+    "@shinnn/eslint-config": "^2.0.0",
     "object-assign": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "^1.10.3",
+    "eslint": "^2.0.0",
     "logalot": "^2.1.0"
   }
 }
