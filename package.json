@@ -1,6 +1,6 @@
 {
   "name": "@shinnn/eslint-config-node-legacy",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "shinnn's ESLint config for maintaining modules that still support Node v0.x",
   "repository": "shinnn/eslint-config-node-legacy",
   "scripts": {
