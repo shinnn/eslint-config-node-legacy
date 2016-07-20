@@ -1,7 +1,6 @@
-var config = require('@shinnn/eslint-config');
-var objectAssign = require('object-assign');
+const config = require('@shinnn/eslint-config');
 
-objectAssign(config.env, {
+Object.assign(config.env, {
   browser: false,
   worker: false,
   serviceworker: false
