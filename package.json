@@ -4,7 +4,7 @@
   "description": "shinnn's ESLint config for maintaining modules that still support Node v0.x",
   "repository": "shinnn/eslint-config-node-legacy",
   "scripts": {
-    "test": "node --strong_mode test.js"
+    "test": "node test.js"
   },
   "license": "MIT",
   "publishConfig": {
